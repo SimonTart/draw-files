@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-07T13:48:28.009Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.6.0" etag="y1dVtepUpxzkEu2CAfrt" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-07T13:50:18.727Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.6.0" etag="d_R1Tr33fB_V6txioBLJ" type="github">
   <diagram id="HtYaV8gFSbHZXaHOkYad" name="第 1 页">
     <mxGraphModel dx="1183" dy="808" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -72,6 +72,9 @@
         </mxCell>
         <mxCell id="dOTpAhQKceL1h4nZkwgp-27" value="使用 react-query 管理&lt;br&gt;所有要更新的场景，命令式的触发更新 命令式更新&lt;br&gt;这两个 query 的注册可以再顶层，根据 key 获取数据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1071" y="272.5" width="170" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="dOTpAhQKceL1h4nZkwgp-30" value="待办 要注意的就是初始化的时候需要获取按钮状态，然后用户选了等级的时候也需要更新按钮状态，已有逻辑，可以直接复用" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="610" width="200" height="390" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
