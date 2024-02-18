@@ -1,9 +1,98 @@
-<mxfile host="app.diagrams.net" modified="2024-02-18T12:42:33.554Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" version="23.1.5" etag="Q6ujrUbvlV3mh7B6cprR" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-18T12:58:37.088Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="osv7xBhV98fV0u2Q82Tu" version="23.1.5" type="github">
   <diagram name="Page-1" id="1juv5qbqu__sq0oKGWD5">
-    <mxGraphModel>
+    <mxGraphModel dx="892" dy="596" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="YqbaTPIDPVV4i59INBhm-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="YqbaTPIDPVV4i59INBhm-1" target="YqbaTPIDPVV4i59INBhm-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YqbaTPIDPVV4i59INBhm-1" value="输入文章内容、标题" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YqbaTPIDPVV4i59INBhm-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YqbaTPIDPVV4i59INBhm-3" target="YqbaTPIDPVV4i59INBhm-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YqbaTPIDPVV4i59INBhm-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YqbaTPIDPVV4i59INBhm-3" target="YqbaTPIDPVV4i59INBhm-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YqbaTPIDPVV4i59INBhm-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YqbaTPIDPVV4i59INBhm-3" target="YqbaTPIDPVV4i59INBhm-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YqbaTPIDPVV4i59INBhm-3" value="AI 提取&lt;br&gt;1. 设计到的国家&lt;br&gt;&amp;nbsp;2. 这个国家对应的语言&lt;br&gt;3. 搜索的关键词" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="190" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YqbaTPIDPVV4i59INBhm-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YqbaTPIDPVV4i59INBhm-5" target="YqbaTPIDPVV4i59INBhm-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YqbaTPIDPVV4i59INBhm-5" value="使用 A 语言在 A 地区搜索关键词" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="570" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YqbaTPIDPVV4i59INBhm-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="YqbaTPIDPVV4i59INBhm-8" target="YqbaTPIDPVV4i59INBhm-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YqbaTPIDPVV4i59INBhm-8" value="使用 B 语言在 B 地区搜索关键词" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="570" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YqbaTPIDPVV4i59INBhm-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YqbaTPIDPVV4i59INBhm-10" target="YqbaTPIDPVV4i59INBhm-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YqbaTPIDPVV4i59INBhm-10" value="...." style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="570" y="300" width="850" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YqbaTPIDPVV4i59INBhm-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YqbaTPIDPVV4i59INBhm-12" target="YqbaTPIDPVV4i59INBhm-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YqbaTPIDPVV4i59INBhm-12" value="获取前 10 个搜索结果" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="770" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YqbaTPIDPVV4i59INBhm-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YqbaTPIDPVV4i59INBhm-14" target="YqbaTPIDPVV4i59INBhm-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YqbaTPIDPVV4i59INBhm-14" value="获取前 10 个搜索结果" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="770" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YqbaTPIDPVV4i59INBhm-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YqbaTPIDPVV4i59INBhm-16" target="YqbaTPIDPVV4i59INBhm-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YqbaTPIDPVV4i59INBhm-16" value="AI 选择出 3 个网站" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="950" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YqbaTPIDPVV4i59INBhm-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YqbaTPIDPVV4i59INBhm-19" target="YqbaTPIDPVV4i59INBhm-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YqbaTPIDPVV4i59INBhm-19" value="提取这 3 个网站的详细内容" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YqbaTPIDPVV4i59INBhm-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YqbaTPIDPVV4i59INBhm-21" target="YqbaTPIDPVV4i59INBhm-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YqbaTPIDPVV4i59INBhm-21" value="AI 对 3 个网站内容进行分析选择出内容最全面的一个" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YqbaTPIDPVV4i59INBhm-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YqbaTPIDPVV4i59INBhm-24" target="YqbaTPIDPVV4i59INBhm-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YqbaTPIDPVV4i59INBhm-24" value="AI 选择出 3 个网站" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="950" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YqbaTPIDPVV4i59INBhm-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YqbaTPIDPVV4i59INBhm-26" target="YqbaTPIDPVV4i59INBhm-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YqbaTPIDPVV4i59INBhm-26" value="提取这 3 个网站的详细内容" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YqbaTPIDPVV4i59INBhm-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YqbaTPIDPVV4i59INBhm-27" target="YqbaTPIDPVV4i59INBhm-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1490" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YqbaTPIDPVV4i59INBhm-27" value="AI 对 3 个网站内容进行分析选择出内容最全面的一个" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YqbaTPIDPVV4i59INBhm-29" value="AI 对内容进行对比，提取相同、不同之处" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
