@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.7.16">
   <diagram name="Page-1" id="VpptnMwDxTGjz2HUDjfg">
-    <mxGraphModel dx="2765" dy="1572" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3813" dy="1684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -82,19 +82,10 @@
         <mxCell id="oAxIsrdEUCZF9UECZQZN-10" value="添加 Token 到 tokens 数组" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="362.5" y="1517" width="248" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="oAxIsrdEUCZF9UECZQZN-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="oAxIsrdEUCZF9UECZQZN-11" target="oAxIsrdEUCZF9UECZQZN-12">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="oAxIsrdEUCZF9UECZQZN-56" value="&amp;nbsp;是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="oAxIsrdEUCZF9UECZQZN-49">
-          <mxGeometry x="-0.1288" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="oAxIsrdEUCZF9UECZQZN-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="oAxIsrdEUCZF9UECZQZN-11" target="oAxIsrdEUCZF9UECZQZN-3">
+        <mxCell id="oAxIsrdEUCZF9UECZQZN-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="oAxIsrdEUCZF9UECZQZN-11" target="oAxIsrdEUCZF9UECZQZN-3">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="213" y="1680" />
-              <mxPoint x="690" y="1680" />
+              <mxPoint x="690" y="1732" />
               <mxPoint x="690" y="243" />
             </Array>
           </mxGeometry>
@@ -104,31 +95,39 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="oAxIsrdEUCZF9UECZQZN-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="oAxIsrdEUCZF9UECZQZN-11" target="oAxIsrdEUCZF9UECZQZN-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oAxIsrdEUCZF9UECZQZN-86" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="oAxIsrdEUCZF9UECZQZN-85">
+          <mxGeometry x="-0.1031" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="oAxIsrdEUCZF9UECZQZN-11" value="当前字符是否是左大括号" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="44" y="1620" width="225" height="225" as="geometry" />
         </mxCell>
         <mxCell id="oAxIsrdEUCZF9UECZQZN-12" value="创建 className Token" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="440.5" y="1710" width="217" height="49" as="geometry" />
+          <mxGeometry x="47.99999999999997" y="1930" width="217" height="49" as="geometry" />
         </mxCell>
         <mxCell id="oAxIsrdEUCZF9UECZQZN-13" value="创建 descriptionStart Token" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="420.5" y="1827" width="258" height="49" as="geometry" />
+          <mxGeometry x="27.99999999999997" y="2047" width="258" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="oAxIsrdEUCZF9UECZQZN-14" value="读取描述内容直到遇到大括号右" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="422.5" y="1934" width="252" height="67" as="geometry" />
+        <mxCell id="oAxIsrdEUCZF9UECZQZN-14" value="读取描述内容直到遇到右大括号" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="29.99999999999997" y="2154" width="252" height="67" as="geometry" />
         </mxCell>
         <mxCell id="oAxIsrdEUCZF9UECZQZN-15" value="创建 property Token，保存描述内容" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="442.5" y="2051" width="213" height="67" as="geometry" />
+          <mxGeometry x="49.99999999999997" y="2271" width="213" height="67" as="geometry" />
         </mxCell>
         <mxCell id="oAxIsrdEUCZF9UECZQZN-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="oAxIsrdEUCZF9UECZQZN-16" target="oAxIsrdEUCZF9UECZQZN-3">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="690" y="2201" />
+              <mxPoint x="690" y="2422" />
               <mxPoint x="690" y="243" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="oAxIsrdEUCZF9UECZQZN-16" value="将 Tokens 添加到 tokens 数组" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="432.5" y="2168" width="233" height="67" as="geometry" />
+          <mxGeometry x="39.99999999999997" y="2388" width="233" height="67" as="geometry" />
         </mxCell>
         <mxCell id="oAxIsrdEUCZF9UECZQZN-17" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="oAxIsrdEUCZF9UECZQZN-1" target="oAxIsrdEUCZF9UECZQZN-2">
           <mxGeometry relative="1" as="geometry">
@@ -178,6 +177,14 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="oAxIsrdEUCZF9UECZQZN-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="oAxIsrdEUCZF9UECZQZN-57" target="oAxIsrdEUCZF9UECZQZN-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oAxIsrdEUCZF9UECZQZN-89" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="oAxIsrdEUCZF9UECZQZN-88">
+          <mxGeometry x="-0.6747" y="6" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="oAxIsrdEUCZF9UECZQZN-57" value="是否遍历结束" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="31" y="430" width="247" height="240" as="geometry" />
         </mxCell>
@@ -191,6 +198,47 @@
           <mxGeometry x="0.8199" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="oAxIsrdEUCZF9UECZQZN-76" value="筛选 className Token" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-534" y="2501" width="217" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="oAxIsrdEUCZF9UECZQZN-77" value="提取每个 className 的值，存储到 classNames 数组" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-546" y="2600" width="242" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="oAxIsrdEUCZF9UECZQZN-78" value="根据 classNames 生成 properties 字符串" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-532" y="2734" width="215" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="oAxIsrdEUCZF9UECZQZN-79" value="拼接 declaration 字符串" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-541" y="2851" width="231" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="oAxIsrdEUCZF9UECZQZN-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="oAxIsrdEUCZF9UECZQZN-80" target="oAxIsrdEUCZF9UECZQZN-90">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oAxIsrdEUCZF9UECZQZN-80" value="写入 .d.ts 文件" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-509" y="2950" width="167" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="oAxIsrdEUCZF9UECZQZN-81" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="oAxIsrdEUCZF9UECZQZN-76" target="oAxIsrdEUCZF9UECZQZN-77">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oAxIsrdEUCZF9UECZQZN-82" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="oAxIsrdEUCZF9UECZQZN-77" target="oAxIsrdEUCZF9UECZQZN-78">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oAxIsrdEUCZF9UECZQZN-83" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="oAxIsrdEUCZF9UECZQZN-78" target="oAxIsrdEUCZF9UECZQZN-79">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oAxIsrdEUCZF9UECZQZN-84" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="oAxIsrdEUCZF9UECZQZN-79" target="oAxIsrdEUCZF9UECZQZN-80">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oAxIsrdEUCZF9UECZQZN-90" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-485.5" y="3070" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
